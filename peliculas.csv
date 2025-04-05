@@ -1,13 +1,142 @@
-﻿Titulo,Link,Data de lancamento,Editor,País,Duracion,Edad mínima,Año de grabación,Subtitulos
-Sonic the Hedgehog 3,https://www.elcorteingles.es/cine/A54961733-sonic-3-la-pelicula-edicion-metalica-shadow-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,14 de abril de 2025,DIVISA RED S.A.,EEUU,N/A,No recomendada a menores de 7 años,2024,"<selenium.webdriver.remote.webelement.WebElement (session=""3fd59091d116a67c0f736f3c402880cf"", element=""f.6448902718EE76C867351B5203C78A52.d.2545501BB8B53526A1EA1E662F8A2FCB.e.214"")>"
-2 Blu-Ray,https://www.elcorteingles.es/cine/A54115753-gladiator-ii-blu-ray/?parentCategoryId=999.54220013&color=default,4 de marzo de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,N/A
-Sonic the Hedgehog 3,https://www.elcorteingles.es/cine/A54961730-sonic-3-la-pelicula-edicion-metalica-sonic-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,14 de abril de 2025,DIVISA RED S.A.,EEUU,N/A,No recomendada a menores de 7 años,2024,"<selenium.webdriver.remote.webelement.WebElement (session=""3fd59091d116a67c0f736f3c402880cf"", element=""f.6448902718EE76C867351B5203C78A52.d.36286C7A7FDAEB8AB61F596508706CC0.e.358"")>"
-Mufasa: The Lion King,https://www.elcorteingles.es/cine/A54670017-mufasa-el-rey-leon-edicion-metalica-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,31 de marzo de 2025,DIVISA RED S.A.,EEUU,N/A,Para todos los públicos,2024,"<selenium.webdriver.remote.webelement.WebElement (session=""3fd59091d116a67c0f736f3c402880cf"", element=""f.6448902718EE76C867351B5203C78A52.d.208A5599B8B1D39C776F043584ED7C39.e.428"")>"
-1 4K Ultra HD,https://www.elcorteingles.es/cine/A54115752-gladiator-ii-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,4 de marzo de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,N/A
-Especial,https://www.elcorteingles.es/cine/A54115751-gladiator-ii-edicion-metalica-coleccionista-2-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,4 de marzo de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,"<selenium.webdriver.remote.webelement.WebElement (session=""3fd59091d116a67c0f736f3c402880cf"", element=""f.6448902718EE76C867351B5203C78A52.d.BF874711C8A34A70A47F7E7EE2A27D03.e.569"")>"
-Mufasa: The Lion King,https://www.elcorteingles.es/cine/A54670025-mufasa-el-rey-leon-dvd/?parentCategoryId=999.54220013&color=default,31 de marzo de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,"<selenium.webdriver.remote.webelement.WebElement (session=""3fd59091d116a67c0f736f3c402880cf"", element=""f.6448902718EE76C867351B5203C78A52.d.4662C1C7ED4B024637CB3E4F4E01A154.e.640"")>"
-1 DVD,https://www.elcorteingles.es/cine/A54115749-gladiator-ii-dvd/?parentCategoryId=999.54220013&color=default,4 de marzo de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,N/A
-Sonic the Hedgehog 3,https://www.elcorteingles.es/cine/A54961735-sonic-3-la-pelicula-blu-ray/?parentCategoryId=999.54220013&color=default,14 de abril de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,"<selenium.webdriver.remote.webelement.WebElement (session=""3fd59091d116a67c0f736f3c402880cf"", element=""f.6448902718EE76C867351B5203C78A52.d.B5ABCFD5454A6CD428ACC69C5E6B72F8.e.782"")>"
-Last Man Standing,https://www.elcorteingles.es/cine/A55083328-el-ultimo-hombre-blu-ray/?parentCategoryId=999.54220013&color=default,30 de abril de 2025,WARNER HBO,N/A,N/A,N/A,N/A,"<selenium.webdriver.remote.webelement.WebElement (session=""3fd59091d116a67c0f736f3c402880cf"", element=""f.6448902718EE76C867351B5203C78A52.d.EE7FB94230D01F862A21C28731D70F93.e.842"")>"
-Sonic the Hedgehog 3,https://www.elcorteingles.es/cine/A54961736-sonic-3-la-pelicula-dvd/?parentCategoryId=999.54220013&color=default,14 de abril de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,"<selenium.webdriver.remote.webelement.WebElement (session=""3fd59091d116a67c0f736f3c402880cf"", element=""f.6448902718EE76C867351B5203C78A52.d.C247FA1C3A2975EAF39424F7DAB805F5.e.909"")>"
-N/A,https://www.elcorteingles.es/cine/A36700978-trilogia-el-hobbit-extendida-blu-ray/?parentCategoryId=999.54220013&color=default,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+﻿Titulo,Link,Fecha_lanzamiento,Editor,País,Duración,Edad_mínima,Año_grabación,Subtítulos
+Sonic 3: La película (Edición Metálica Shadow) (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A54961733-sonic-3-la-pelicula-edicion-metalica-shadow-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,14 de abril de 2025,DIVISA RED S.A.,EEUU,110 min,No recomendada a menores de 7 años,2024,"Castellano
+Inglés
+Alemán
+Checo
+Italiano
+Chino
+Eslovaco
+Japonés
+Polaco
+Turco"
+Gladiator II (Blu-Ray),https://www.elcorteingles.es/cine/A54115753-gladiator-ii-blu-ray/?parentCategoryId=999.54220013&color=default,4 de marzo de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,N/A
+Mufasa: El rey león (Edición Metálica) (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A54670017-mufasa-el-rey-leon-edicion-metalica-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,31 de marzo de 2025,DIVISA RED S.A.,EEUU,118 min,Para todos los públicos,2024,"Castellano
+Japonés
+Español De América"
+Sonic 3: La película (Edición Metálica Sonic) (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A54961730-sonic-3-la-pelicula-edicion-metalica-sonic-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,14 de abril de 2025,DIVISA RED S.A.,EEUU,110 min,No recomendada a menores de 7 años,2024,"Castellano
+Inglés
+Alemán
+Checo
+Italiano
+Chino
+Eslovaco
+Japonés
+Polaco
+Turco"
+Mufasa: El rey león (DVD),https://www.elcorteingles.es/cine/A54670025-mufasa-el-rey-leon-dvd/?parentCategoryId=999.54220013&color=default,31 de marzo de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,EEUU
+Gladiator II (Edición Metálica Coleccionista 2) (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A54115751-gladiator-ii-edicion-metalica-coleccionista-2-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,4 de marzo de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,EEUU
+Gladiator II (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A54115752-gladiator-ii-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,4 de marzo de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,N/A
+Mufasa: El rey león (Blu-Ray),https://www.elcorteingles.es/cine/A54670022-mufasa-el-rey-leon-blu-ray/?parentCategoryId=999.54220013&color=default,31 de marzo de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,EEUU
+Sonic 3: la película (Blu-Ray),https://www.elcorteingles.es/cine/A54961735-sonic-3-la-pelicula-blu-ray/?parentCategoryId=999.54220013&color=default,14 de abril de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,EEUU
+El último hombre (Blu-Ray),https://www.elcorteingles.es/cine/A55083328-el-ultimo-hombre-blu-ray/?parentCategoryId=999.54220013&color=default,30 de abril de 2025,WARNER HBO,N/A,N/A,N/A,N/A,EEUU
+Gladiator II (DVD),https://www.elcorteingles.es/cine/A54115749-gladiator-ii-dvd/?parentCategoryId=999.54220013&color=default,4 de marzo de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,N/A
+John Wick (Otro día para matar) (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A47870742-john-wick-otro-dia-para-matar-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,30 de junio de 2023,DIVISA RED S.A.,N/A,N/A,N/A,N/A,N/A
+Sonic 3: la película (DVD),https://www.elcorteingles.es/cine/A54961736-sonic-3-la-pelicula-dvd/?parentCategoryId=999.54220013&color=default,14 de abril de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,EEUU
+Indiana Jones: 4-Movie Collection (5 Blu-Ray),https://www.elcorteingles.es/cine/A41219239-indiana-jones-4-movie-collection-5-blu-ray/?parentCategoryId=999.54220013&color=default,11 de octubre de 2021,DIVISA RED S. A.,N/A,N/A,N/A,N/A,N/A
+Los Tres Mosqueteros BD 1948 The Three Musketeers,https://www.elcorteingles.es/cine/A43545533-los-tres-mosqueteros-bd-1948-the-three-musketeers/?parentCategoryId=999.54220013&color=default,,DVD STORE,N/A,N/A,N/A,N/A,N/A
+El conde de Montecristo (Blu-Ray),https://www.elcorteingles.es/cine/A53276637-el-conde-de-montecristo-blu-ray/?parentCategoryId=999.54220013&color=default,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Gladiator (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A28262608-gladiator-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,21 de noviembre de 2018,UNIVERSAL,N/A,N/A,N/A,N/A,N/A
+Lobos del Norte Spawn Of The North,https://www.elcorteingles.es/cine/A20907883-lobos-del-norte-spawn-of-the-north/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Trilogía El Hobbit Extendida (Blu-Ray),https://www.elcorteingles.es/cine/A36700978-trilogia-el-hobbit-extendida-blu-ray/?parentCategoryId=999.54220013&color=default,11 de agosto de 2020,Warner,N/A,N/A,N/A,N/A,182 min
+Pack The Equalizer 1-3 (Blu-Ray),https://www.elcorteingles.es/cine/A49875348-pack-the-equalizer-1-3-blu-ray/?parentCategoryId=999.54220013&color=default,14 de diciembre de 2023,Sony,N/A,N/A,N/A,N/A,N/A
+Noé (Blu-Ray),https://www.elcorteingles.es/cine/A54961761-noe-blu-ray/?parentCategoryId=999.54220013&color=default,14 de abril de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,EEUU
+Pack Karate Kid: Películas 1-5 (Blu-Ray),https://www.elcorteingles.es/cine/A30221389-pack-karate-kid-peliculas-1-5-blu-ray/?parentCategoryId=999.54220013&color=default,3 de mayo de 2019,SONY PICTURES HOME ENTERTAINMENT,N/A,N/A,N/A,N/A,599 min
+El especialista (Edición Metálica) (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A52641413-el-especialista-edicion-metalica-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,28 de agosto de 2024,UNIVERSAL,EEUU,126 min,No recomendada a menores de 12 años,2024,Castellano
+El Rector The Principal,https://www.elcorteingles.es/cine/A39167885-el-rector-the-principal/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Mortal Kombat - Steelbook 4k UHD + Blu-ray,https://www.elcorteingles.es/cine/A39963847-mortal-kombat-steelbook-4k-uhd--blu-ray/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Ip Man BLU RAY Edición Especial Numerada y Limitada con Funda y 8 Postales 2008,https://www.elcorteingles.es/cine/A36884300-ip-man-blu-ray-edicion-especial-numerada-y-limitada-con-funda-y-8-postales-2008/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Juego de ladrones. El atraco perfecto,https://www.elcorteingles.es/cine/A27262998-juego-de-ladrones-el-atraco-perfecto/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+En El Corazon De La Tierra (Blu-Ray) (At The Earth'S Core),https://www.elcorteingles.es/cine/MP_0008858_8436548868949-en-el-corazon-de-la-tierra-blu-ray-at-the-earths-core/?parentCategoryId=999.54220013&color=default,Castellano,Acción y Aventuras,N/A,N/A,N/A,N/A,N/A
+Turbulencia Abróchense los Cinturones BD 1996 Turbulence,https://www.elcorteingles.es/cine/A44622658-turbulencia-abrochense-los-cinturones-bd-1996-turbulence/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Ciudad en Llamas BD 1979 City on Fire,https://www.elcorteingles.es/cine/A41270707-ciudad-en-llamas-bd-1979-city-on-fire/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Sonic 3: la película (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A54961734-sonic-3-la-pelicula-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,14 de abril de 2025,DIVISA RED S.A.,N/A,N/A,N/A,N/A,EEUU
+Robin Hood (Edición 2025) (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A55083307-robin-hood-edicion-2025-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,30 de abril de 2025,UNIVERSAL,N/A,N/A,N/A,N/A,EEUU
+Indiana Jones y el dial del destino (Blu-Ray),https://www.elcorteingles.es/cine/A49584910-indiana-jones-y-el-dial-del-destino-blu-ray/?parentCategoryId=999.54220013&color=default,5 de diciembre de 2023,DIVISA RED S.A.,N/A,N/A,N/A,N/A,N/A
+Misión imposible 7: Sentencia mortal (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A49168621-mision-imposible-7-sentencia-mortal-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,31 de octubre de 2023,DIVISA RED S.A.,N/A,N/A,N/A,N/A,N/A
+Templario II: Batalla por la sangre 2014 Ironclad: Battle for Blood,https://www.elcorteingles.es/cine/A16734181-templario-ii-batalla-por-la-sangre-2014-ironclad-battle-for-blood/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Herida Abierta BD 2001 Exit Wounds,https://www.elcorteingles.es/cine/A34973762-herida-abierta-bd-2001-exit-wounds/?parentCategoryId=999.54220013&color=default,,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Barcelona 1714,https://www.elcorteingles.es/cine/A33181666-barcelona-1714/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+El Vuelo del Fénix The Flight Of The Phoenix,https://www.elcorteingles.es/cine/A41270708-el-vuelo-del-fenix-the-flight-of-the-phoenix/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Los Dientes Del Diablo BD 1960 The Savage Innocents,https://www.elcorteingles.es/cine/A31188684-los-dientes-del-diablo-bd-1960-the-savage-innocents/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Los Inmortales III. El Hechicero,https://www.elcorteingles.es/cine/A32182035-los-inmortales-iii-el-hechicero/?parentCategoryId=999.54220013&color=default,,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Ip Man 4 BLU-RAY 2019 Yip Man 4,https://www.elcorteingles.es/cine/A47163336-ip-man-4-blu-ray-2019-yip-man-4/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Buscando Justicia BD 1991 Out for Justice,https://www.elcorteingles.es/cine/A34930542-buscando-justicia-bd-1991-out-for-justice/?parentCategoryId=999.54220013&color=default,,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Invicto BD 2002 Undisputed,https://www.elcorteingles.es/cine/A38877081-invicto-bd-2002-undisputed/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Bala Blindada 1987 Man on Fire,https://www.elcorteingles.es/cine/A47163338-bala-blindada-1987-man-on-fire/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+VALKIRIA (DVD),https://www.elcorteingles.es/cine/MP_0008555_8435153659904-valkiria-dvd/?parentCategoryId=999.54220013&color=default,Inglés,Acción y Aventuras,N/A,N/A,N/A,N/A,N/A
+Soldado Silent Trigger,https://www.elcorteingles.es/cine/A41463526-soldado-silent-trigger/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+El Último Guerrero 1995,https://www.elcorteingles.es/cine/MP_0000572_32740-el-ultimo-guerrero-1995/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Free Guy - Steelbook,https://www.elcorteingles.es/cine/A41258740-free-guy-steelbook/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+X-Men Fénix Oscura - Steelbook lenticular,https://www.elcorteingles.es/cine/A39479683-x-men-fenix-oscura-steelbook-lenticular/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+El Rio de la Muerte,https://www.elcorteingles.es/cine/MP_0000572_33792-el-rio-de-la-muerte/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Dick Tracy,https://www.elcorteingles.es/cine/MP_0008858_8436022323711-dick-tracy/?parentCategoryId=999.54220013&color=default,Castellano,Acción y Aventuras,N/A,N/A,N/A,N/A,N/A
+Cuba,https://www.elcorteingles.es/cine/A20596075-cuba/?parentCategoryId=999.54220013&color=default,,DVD STORE,N/A,N/A,N/A,N/A,N/A
+La Tierra Contra Los Platillos Volantes (Earth Vs The Flying Saucers),https://www.elcorteingles.es/cine/MP_0008858_8436548868154-la-tierra-contra-los-platillos-volantes-earth-vs-the-flying-saucers/?parentCategoryId=999.54220013&color=default,Castellano,Acción y Aventuras,N/A,N/A,N/A,N/A,N/A
+CURSO 1984,https://www.elcorteingles.es/cine/A16584459-curso-1984/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Operacion : Soldados De Juguete (Toy Soldiers),https://www.elcorteingles.es/cine/A18538965-operacion--soldados-de-juguete-toy-soldiers/?parentCategoryId=999.54220013&color=default,Castellano,Acción y Aventuras,N/A,N/A,N/A,N/A,N/A
+Arrow Temporada 6,https://www.elcorteingles.es/cine/A27815629-arrow-temporada-6/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+EL ULTIMO GRAN HEROE,https://www.elcorteingles.es/cine/A3847052-el-ultimo-gran-heroe/?parentCategoryId=999.54220013&color=default,,DVD STORE,N/A,N/A,N/A,N/A,N/A
+HALO 4 (BLU-RAY+DVD),https://www.elcorteingles.es/cine/MP_0008555_8436533825308-halo-4-blu-raydvd/?parentCategoryId=999.54220013&color=default,Inglés,Acción y Aventuras,N/A,N/A,N/A,N/A,N/A
+Los Mercenarios (DVD),https://www.elcorteingles.es/cine/MP_0000572_cine6609-los-mercenarios-dvd/?parentCategoryId=999.54220013&color=default,2 de noviembre de 2016,"SAVOR EDICIONES, S.A.",N/A,N/A,N/A,N/A,N/A
+Los Últimos Días del Edén BD 1992 The Medicine Man,https://www.elcorteingles.es/cine/A30233255-los-ultimos-dias-del-eden-bd-1992-the-medicine-man/?parentCategoryId=999.54220013&color=default,,DVD STORE,N/A,N/A,N/A,N/A,N/A
+La carrera de la muerte del año 2000 (Blu-Ray),https://www.elcorteingles.es/cine/A12946476-la-carrera-de-la-muerte-del-ano-2000-blu-ray/?parentCategoryId=999.54220013&color=default,4 de abril de 2025,JRB Producción,N/A,N/A,N/A,N/A,N/A
+Misión imposible 7: Sentencia mortal (Edición Metálica) (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A49168620-mision-imposible-7-sentencia-mortal-edicion-metalica-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,31 de octubre de 2023,DIVISA RED S.A.,N/A,N/A,N/A,N/A,N/A
+Indiana Jones y el dial del destino (DVD),https://www.elcorteingles.es/cine/A49584907-indiana-jones-y-el-dial-del-destino-dvd/?parentCategoryId=999.54220013&color=default,5 de diciembre de 2023,DIVISA RED S.A.,N/A,N/A,N/A,N/A,N/A
+Pack Trilogía El Señor de los Anillos (Edición Extendida Remasterizada) (Blu-Ray + DVD),https://www.elcorteingles.es/cine/A43086683-pack-trilogia-el-senor-de-los-anillos-edicion-extendida-remasterizada-blu-ray--dvd/?parentCategoryId=999.54220013&color=default,20 de abril de 2022,Warner,Nueva Zelanda,725 min,No recomendada a menores de 12 años,2001,"Castellano, DTS HD Master Audio 5,1
+Inglés, Dolby TrueHD"
+Pack Harry el sucio 1-5 (Blu-Ray),https://www.elcorteingles.es/cine/A51102152-pack-harry-el-sucio-1-5-blu-ray/?parentCategoryId=999.54220013&color=default,24 de abril de 2024,Warner,N/A,N/A,N/A,N/A,EEUU
+Pack Tierra Media (El Hobbit y El Señor de los Anillos) (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A41258734-pack-tierra-media-el-hobbit-y-el-senor-de-los-anillos-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,29 de noviembre de 2021,Warner,N/A,N/A,N/A,N/A,N/A
+Top Gun: Maverick (4K Ultra HD + Blu-Ray),https://www.elcorteingles.es/cine/A45058038-top-gun-maverick-4k-ultra-hd--blu-ray/?parentCategoryId=999.54220013&color=default,31 de octubre de 2022,DIVISA RED S.A.,N/A,N/A,N/A,N/A,N/A
+LOS REYES DEL CRIMEN,https://www.elcorteingles.es/cine/A1989360-los-reyes-del-crimen/?parentCategoryId=999.54220013&color=default,,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Sin Tregua (End Of Watch),https://www.elcorteingles.es/cine/MP_0008858_8436540902924-sin-tregua-end-of-watch/?parentCategoryId=999.54220013&color=default,Castellano,Acción y Aventuras,N/A,N/A,N/A,N/A,N/A
+Ip Man Ii Yip Man 2: Chung Si Chuen Kei,https://www.elcorteingles.es/cine/A46616025-ip-man-ii-yip-man-2-chung-si-chuen-kei/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Fuerza de vigilancia (DVD),https://www.elcorteingles.es/cine/MP_0000572_cine8038-fuerza-de-vigilancia-dvd/?parentCategoryId=999.54220013&color=default,23 de noviembre de 2016,RESEARCH ENTERTAINMENT SL,N/A,N/A,N/A,N/A,N/A
+"Filth, El Sucio (DVD)",https://www.elcorteingles.es/cine/MP_0000572_cine8044-filth-el-sucio-dvd/?parentCategoryId=999.54220013&color=default,2 de noviembre de 2016,CAMEO MEDIA S.L.,N/A,N/A,N/A,N/A,N/A
+En Tierra Peligrosa BD 1994 On Deadly Ground,https://www.elcorteingles.es/cine/A32182039-en-tierra-peligrosa-bd-1994-on-deadly-ground/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Prueba De Vida BD 2000 Proof of Life,https://www.elcorteingles.es/cine/A41463524-prueba-de-vida-bd-2000-proof-of-life/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Unidad de élite,https://www.elcorteingles.es/cine/A24360587-unidad-de-elite/?parentCategoryId=999.54220013&color=default,,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Plan De Escape 2 BLU-RAY 2018 Escape Plan 2: Hades,https://www.elcorteingles.es/cine/A46616024-plan-de-escape-2-blu-ray-2018-escape-plan-2-hades/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Ice Road BD 2021,https://www.elcorteingles.es/cine/A45697521-ice-road-bd-2021/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Belleza Mortal BD 1987 Fatal Beauty,https://www.elcorteingles.es/cine/A40780057-belleza-mortal-bd-1987-fatal-beauty/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Presa de la Secta BD 1995 The Hunted,https://www.elcorteingles.es/cine/A39760269-presa-de-la-secta-bd-1995-the-hunted/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+En Tierra Peligrosa 2 Fire Down Below,https://www.elcorteingles.es/cine/A34957386-en-tierra-peligrosa-2-fire-down-below/?parentCategoryId=999.54220013&color=default,,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Black Dog BD 1998,https://www.elcorteingles.es/cine/A34957389-black-dog-bd-1998/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+"Robin Hood, Príncipe De Los Ladrones BLU-RAY 1991 Robin Hood: Prince of Thieves",https://www.elcorteingles.es/cine/A47752085-robin-hood-principe-de-los-ladrones-blu-ray-1991-robin-hood-prince-of-thieves/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Shopping DVD 1994,https://www.elcorteingles.es/cine/A40219777-shopping-dvd-1994/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Cristóbal Colón: El Descubrimiento BD 1992 Christopher Columbus: The Discovery,https://www.elcorteingles.es/cine/A37758303-cristobal-colon-el-descubrimiento-bd-1992-christopher-columbus-the-discovery/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Rollerball Rollerball,https://www.elcorteingles.es/cine/A36884302-rollerball-rollerball/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Justa Venganza Wake Of Death,https://www.elcorteingles.es/cine/A41590313-justa-venganza-wake-of-death/?parentCategoryId=999.54220013&color=default,,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Se Busca Vivo o Muerto BD 1987 Wanted: Dead or Alive,https://www.elcorteingles.es/cine/A40219785-se-busca-vivo-o-muerto-bd-1987-wanted-dead-or-alive/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Los Demonios de la Noche The Ghost And The Darkness,https://www.elcorteingles.es/cine/A48220580-los-demonios-de-la-noche-the-ghost-and-the-darkness/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+El Sabor de la Muerte BD 1995 Kiss of Death,https://www.elcorteingles.es/cine/A44447647-el-sabor-de-la-muerte-bd-1995-kiss-of-death/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Cazador a Sueldo BD 1980 The Hunter,https://www.elcorteingles.es/cine/A45038990-cazador-a-sueldo-bd-1980-the-hunter/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Infierno en Alcatraz 1987,https://www.elcorteingles.es/cine/MP_0000572_35487-infierno-en-alcatraz-1987/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Trío de Ases 1983,https://www.elcorteingles.es/cine/MP_0000572_35450-trio-de-ases-1983/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+El Temible Burlón The Crimson Pirate,https://www.elcorteingles.es/cine/A48220578-el-temible-burlon-the-crimson-pirate/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Patrulla De Rescate (Flight From Ashiya),https://www.elcorteingles.es/cine/MP_0008858_8437005055599-patrulla-de-rescate-flight-from-ashiya/?parentCategoryId=999.54220013&color=default,Castellano,Acción y Aventuras,N/A,N/A,N/A,N/A,N/A
+BRICK MANSIONS (DVD),https://www.elcorteingles.es/cine/MP_0008555_8436540904980-brick-mansions-dvd/?parentCategoryId=999.54220013&color=default,Inglés,Acción y Aventuras,N/A,N/A,N/A,N/A,N/A
+En el Filo DVD 2020 Na ostrie,https://www.elcorteingles.es/cine/A45983956-en-el-filo-dvd-2020-na-ostrie/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Shaolin. La Leyenda de Los Monjes Guerreros Shaolin,https://www.elcorteingles.es/cine/A7474533-shaolin-la-leyenda-de-los-monjes-guerreros-shaolin/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+MOTIN (DVD),https://www.elcorteingles.es/cine/MP_0008555_8436548866181-motin-dvd/?parentCategoryId=999.54220013&color=default,Inglés,Acción y Aventuras,N/A,N/A,N/A,N/A,N/A
+Soldado Universal: Regeneración BLU RAY 2009 Universal Soldier: Regeneration,https://www.elcorteingles.es/cine/A35857729-soldado-universal-regeneracion-blu-ray-2009-universal-soldier-regeneration/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+El Trueno Azul Blue Thunder,https://www.elcorteingles.es/cine/A41478931-el-trueno-azul-blue-thunder/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Spy Kids (DVD),https://www.elcorteingles.es/cine/MP_0000572_cine7792-spy-kids-dvd/?parentCategoryId=999.54220013&color=default,2 de noviembre de 2009,"SAVOR EDICIONES, S.A.",N/A,N/A,N/A,N/A,N/A
+Rapid Fire BD 1992,https://www.elcorteingles.es/cine/A37758259-rapid-fire-bd-1992/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Starsky & Hutch: La película (Starsky and Hutch: The Movie),https://www.elcorteingles.es/cine/MP_0008858_8435153736322-starsky-and-hutch-la-pelicula-starsky-and-hutch-the-movie/?parentCategoryId=999.54220013&color=default,Dato no disponible,Acción y Aventuras,N/A,N/A,N/A,N/A,N/A
+Tormenta Blanca BD 1996 White Squall,https://www.elcorteingles.es/cine/A37217772-tormenta-blanca-bd-1996-white-squall/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Sin escape BD 1993 Nowhere to Run,https://www.elcorteingles.es/cine/A36230304-sin-escape-bd-1993-nowhere-to-run/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Volar por los Aires Blown Away,https://www.elcorteingles.es/cine/A48220581-volar-por-los-aires-blown-away/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+6 Balas BD 2012 6 Bullets,https://www.elcorteingles.es/cine/A39167884-6-balas-bd-2012-6-bullets/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+El Hidalgo de los Mares BD 1951 Captain Horatio Hornblower,https://www.elcorteingles.es/cine/A45983962-el-hidalgo-de-los-mares-bd-1951-captain-horatio-hornblower/?parentCategoryId=999.54220013&color=default,,DVD STORE,N/A,N/A,N/A,N/A,N/A
+El Hombre De Rio (L'Homme De Rio),https://www.elcorteingles.es/cine/MP_0008858_8436558190764-el-hombre-de-rio-lhomme-de-rio/?parentCategoryId=999.54220013&color=default,Castellano,Acción y Aventuras,N/A,N/A,N/A,N/A,N/A
+Libertad Para Morir BD 1985 Death Warrant,https://www.elcorteingles.es/cine/A35395539-libertad-para-morir-bd-1985-death-warrant/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Eliminators BD 2016,https://www.elcorteingles.es/cine/A45038988-eliminators-bd-2016/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Ataque Terrorista BD 2009 Command Performance,https://www.elcorteingles.es/cine/A45697510-ataque-terrorista-bd-2009-command-performance/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Bailando con Lobos BD + DVD Edición Metálica Limitada+ 8 Postales 1990 Dance With Wolves,https://www.elcorteingles.es/cine/A33303083-bailando-con-lobos-bd--dvd-edicion-metalica-limitada-8-postales-1990-dance-with-wolves/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+"Robin Hood, el Magnífico BD 1991 Robin Hood",https://www.elcorteingles.es/cine/A38877077-robin-hood-el-magnifico-bd-1991-robin-hood/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Kill Switch BD 2008,https://www.elcorteingles.es/cine/A45038992-kill-switch-bd-2008/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+El Pastor de las Colinas BD 1941 The Shepherd of the Hills,https://www.elcorteingles.es/cine/A39358331-el-pastor-de-las-colinas-bd-1941-the-shepherd-of-the-hills/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Plan De Escape 3 BLU-RAY 2019 Escape Plan: The Extractors,https://www.elcorteingles.es/cine/A47163337-plan-de-escape-3-blu-ray-2019-escape-plan-the-extractors/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Hombres de Élite BD 2015 Life on the Line,https://www.elcorteingles.es/cine/A45983961-hombres-de-elite-bd-2015-life-on-the-line/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+A Sangre Fría BD 2019 Cold Blood Legacy,https://www.elcorteingles.es/cine/A45983960-a-sangre-fria-bd-2019-cold-blood-legacy/?parentCategoryId=999.54220013&color=default,9 de enero de 2024,DVD STORE,N/A,N/A,N/A,N/A,N/A
+Infierno Blanco BLU-RAY 1953 Island In The Sky,https://www.elcorteingles.es/cine/A47163339-infierno-blanco-blu-ray-1953-island-in-the-sky/?parentCategoryId=999.54220013&color=default,,DVD STORE,N/A,N/A,N/A,N/A,N/A
