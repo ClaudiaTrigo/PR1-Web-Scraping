@@ -99,7 +99,7 @@ def main ():
 
     print(f"Se han recopilado {len(links_movies)} links de películas.")
 
-    # 6. Recorrer cada enlace y extraer TÍTULO + datos del panel
+    # 6. Recorrer cada enlace y extraer titulo + datos del panel
     datos = []
     for link in links_movies:
         try:
@@ -113,18 +113,21 @@ def main ():
             except:
                 pass
 
+            record = {} #creamos un diccionario para cada pelicula
+
             # (A) EXTRAER TÍTULO 
             try:
                 title_elem = driver.find_element(By.ID, "product_detail_title").text
+                record["Título"] = title_elem
             except:
-                title_elem = "N/A"
+                record["Título"] = "N/A"
 
             # (B) EXTRAEMOS PRECIOS 
             try:
-                Price = driver.find_element(By.CLASS_NAME, "price-unit--normal product-detail-price")
-                Price = Price.text
+                Price = driver.find_element(By.CSS_SELECTOR, ".price-unit--normal.product-detail-price")
+                record["Precio de venta"] = Price.text.strip()
             except:
-                Price = "N/A"
+                record["Precio de venta"] = "N/A"
 
             # (C) Hacer click en “Características”
             try:
@@ -135,62 +138,55 @@ def main ():
             except Exception as e:
                 print("Error al pulsar en el panel de características:", e)
 
-            # (C) EXTRAER el resto de datos del panel
-            try:
-                launch_date = driver.find_element(By.XPATH, '//*[@id="modal"]/div/div/div/div/div/dl[3]/div/dd/div').text
-            except:
-                launch_date = "N/A"
+            # (D) EXTRAER el resto de datos del panel
 
-            try:
-                editor = driver.find_element(By.XPATH, '//*[@id="modal"]/div/div/div/div/div/dl[1]/div/dd/div').text
-            except:
-                editor = "N/A"
+            # 1) Localizar todos los <dt class="titleInfoProduct">
+            dt_elements = driver.find_elements(By.CSS_SELECTOR, "dt.titleInfoProduct")
 
-            try:
-                country = driver.find_element(By.XPATH, '//*[@id="modal"]/div/div/div/div/div/dl[9]/div[3]/dd/div').text
-            except:
-                country = "N/A"
+            # 2) Definir las palabras clave que te interesan:
+            campos_interes = {
+                "Editor": "Editor",
+                "Fecha de lanzamiento": "Fecha de lanzamiento",
+                "Subtítulos": "Subtítulos",
+                "Idioma": "Idioma",
+                "Año": "Año",
+                "País": "País",
+                "Duración": "Duración",
+                "Calificación": "Calificación"  
+            }
 
-            try:
-                duration = driver.find_element(By.XPATH, '//*[@id="modal"]/div/div/div/div/div/dl[9]/div[4]/dd/div').text
-            except:
-                duration = "N/A"
+            for dt in dt_elements:
+                label_text = dt.text.strip()
+    
+                # 3) Localizar el <dd> inmediatamente siguiente 
+                try:
+                    dd_element = dt.find_element(By.XPATH, "./following-sibling::dd[1]")
+                    value_text = dd_element.text.strip()
+                except:
+                    value_text = "N/A"
 
-            try:
-                age = driver.find_element(By.XPATH, '//*[@id="modal"]/div/div/div/div/div/dl[9]/div[5]/dd/div').text
-            except:
-                age = "N/A"
+                # 4) Comprobar si la etiqueta dt coincide con uno de los campos que quieres
+                for campo, patron in campos_interes.items():
+                # "campo" es la clave con la que guardarás la info en el diccionario
+                # "patron" es el texto que esperas (p. ej., "Fecha de lanzamiento")
 
-            try:
-                filming_year = driver.find_element(By.XPATH, '//*[@id="modal"]/div/div/div/div/div/dl[9]/div[2]/dd/div').text
-            except:
-                filming_year = "N/A"
+                    if patron in label_text:
+                        record[campo] = value_text
+                        break  # Salimos del bucle interno "for campo, patron"
 
-            try:
-                subtitles = driver.find_element(By.XPATH, '//*[@id="modal"]/div/div/div/div/div/dl[8]/div[3]/dd').text
-            except:
-                subtitles = "N/A"
+            # (E) Guardar link también, por si lo quieres en el CSV
+            record["Link"] = link
 
-            # (D) Guardar todo en el diccionario
-            datos.append({
-                "Titulo": title,
-                "Link": link,
-                "Fecha_lanzamiento": launch_date,
-                "Editor": editor,
-                "País": country,
-                "Duración": duration,
-                "Edad_mínima": age,
-                "Año_grabación": filming_year,
-                "Subtítulos": subtitles
-            })
-
+            # (F) Añadir el diccionario a la lista de datos
+            datos.append(record)   
+            
         except Exception as e:
             print(f"Error procesando {link}: {e}")
 
     # 7. Convertir la lista de diccionarios en un DataFrame y a CSV
     df = pd.DataFrame(datos)
-    df.to_csv("peliculas.csv", index=False, encoding='utf-8-sig')
-    print("Datos guardados en 'peliculas.csv'")
+    df.to_csv("Peliculas_Acción_Aventuras_Corte_Inglés_abril_2025_bruto.csv", index=False, encoding='utf-8-sig')
+    print("Datos guardados en 'Peliculas_Acción_Aventuras_Corte_Inglés_abril_2025_bruto.csv'")
 
     time.sleep(2)
     driver.quit()
