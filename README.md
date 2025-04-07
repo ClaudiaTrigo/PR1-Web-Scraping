@@ -8,7 +8,7 @@ El trabajo ha sido realizado por:
 
 # Ficheros del código fuente
 
-1. **PR1-WebScrapling-ElCorteIngles.py**  
+1. **PR1-WebScraping-ElCorteIngles.py**  
    Contiene el código Python que realiza el scraping:
    - Inicia la navegación en la página de El Corte Inglés.
    - Efectúa un *scroll* infinito para cargar todas las películas.
