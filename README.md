@@ -27,7 +27,7 @@ El trabajo ha sido realizado por:
 # Instrucciones de ejecución
 ```bash
 # 1. Clona o descarga este repositorio
-git clone https://github.com/ClaudiaTrigo/PR1-Web-Scrappling.git
+git clone https://github.com/ClaudiaTrigo/PR1-Web-Scraping.git
 
 # 3. Instala las dependencias del archivo requirements.txt
 pip install -r requirements.txt
