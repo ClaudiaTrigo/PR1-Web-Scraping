@@ -21,6 +21,9 @@ El trabajo ha sido realizado por:
 3. **Peliculas_Acción_Aventuras_Corte_Inglés_abril_2025_bruto.csv**  
    Dataset resultante, que recoge toda la información recopilada: título de las películas, precio, editor, fecha de lanzamiento, subtítulos, idioma, etc.
 
+# Enlace al dataset publicado en Zenodo
+   https://doi.org/10.5281/zenodo.15169026
+
 # Instrucciones de ejecución
 ```bash
 # 1. Clona o descarga este repositorio
